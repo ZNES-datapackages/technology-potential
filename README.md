@@ -1,2 +1,1 @@
-# technology-potential
-Technolgy Potential
+# Renewable and Storage Potential

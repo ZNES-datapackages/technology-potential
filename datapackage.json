@@ -1,0 +1,94 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/renewable.csv",
+            "profile": "tabular-data-resource",
+            "name": "renewable",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/storage.csv",
+            "profile": "tabular-data-resource",
+            "name": "storage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "name": "Renewable and Storage Potential",
+    "description": "Renewable Energy and Storage Potential per Country",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+        {
+            "title": "DLR",
+            "path": "https://elib.dlr.de/77976/1/REMix_Thesis_YS.pdf"
+        },
+        {
+            "title": "ZNES",
+            "path": "ZNES_2050_ehighway"
+        }
+    ]
+}
