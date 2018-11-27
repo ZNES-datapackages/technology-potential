@@ -22,7 +22,7 @@
                     },
                     {
                         "name": "capacity_potential",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -76,8 +76,13 @@
     "description": "Renewable Energy and Storage Potential per Country",
     "contributors": [
         {
-            "title": "'Simon Hilpert'",
+            "title": "Simon Hilpert",
             "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        },
+        {
+            "title": "Martin Söthe",
+            "email": "martin.soethe@uni-flensburg.de",
             "role": "author"
         }
     ],
