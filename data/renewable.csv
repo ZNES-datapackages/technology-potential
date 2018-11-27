@@ -23,12 +23,12 @@ PL,wind_onshore,59000,DLR
 SE,wind_onshore,90000,DLR
 CH,wind_onshore,7000,DLR
 AL,wind_offshore,8464.13295651927,Brown & Schlachtberger
-AT,wind_offshore,,Brown & Schlachtberger
-BA,wind_offshore,,Brown & Schlachtberger
+AT,wind_offshore,0,Brown & Schlachtberger
+BA,wind_offshore,0,Brown & Schlachtberger
 BE,wind_offshore,3902.17600052674,Brown & Schlachtberger
 BG,wind_offshore,2730.87703187576,Brown & Schlachtberger
-CH,wind_offshore,,Brown & Schlachtberger
-CZ,wind_offshore,,Brown & Schlachtberger
+CH,wind_offshore,0,Brown & Schlachtberger
+CZ,wind_offshore,0,Brown & Schlachtberger
 DE,wind_offshore,54056.4129555132,Brown & Schlachtberger
 DK,wind_offshore,106731.977939107,Brown & Schlachtberger
 EE,wind_offshore,20260.1170450369,Brown & Schlachtberger
@@ -38,23 +38,23 @@ FR,wind_offshore,52440.7346120808,Brown & Schlachtberger
 GB,wind_offshore,180446.507451373,Brown & Schlachtberger
 GR,wind_offshore,42776.7669248819,Brown & Schlachtberger
 HR,wind_offshore,18674.160291017,Brown & Schlachtberger
-HU,wind_offshore,,Brown & Schlachtberger
+HU,wind_offshore,0,Brown & Schlachtberger
 IE,wind_offshore,22268.6923412577,Brown & Schlachtberger
 IT,wind_offshore,42004.716364026,Brown & Schlachtberger
 LT,wind_offshore,4613.55480660524,Brown & Schlachtberger
-LU,wind_offshore,,Brown & Schlachtberger
+LU,wind_offshore,0,Brown & Schlachtberger
 LV,wind_offshore,17851.2780820742,Brown & Schlachtberger
 ME,wind_offshore,3263.17164869425,Brown & Schlachtberger
-MK,wind_offshore,,Brown & Schlachtberger
+MK,wind_offshore,0,Brown & Schlachtberger
 NL,wind_offshore,97134.756853295,Brown & Schlachtberger
 NO,wind_offshore,65256.9824210151,Brown & Schlachtberger
 PL,wind_offshore,12772.9322258712,Brown & Schlachtberger
 PT,wind_offshore,8100.28978216783,Brown & Schlachtberger
 RO,wind_offshore,12769.4118953399,Brown & Schlachtberger
-RS,wind_offshore,,Brown & Schlachtberger
+RS,wind_offshore,0,Brown & Schlachtberger
 SE,wind_offshore,111678.574218829,Brown & Schlachtberger
-SI,wind_offshore,,Brown & Schlachtberger
-SK,wind_offshore,,Brown & Schlachtberger
+SI,wind_offshore,0,Brown & Schlachtberger
+SK,wind_offshore,0,Brown & Schlachtberger
 AL,wind_onshore,16364.8145742268,Brown & Schlachtberger
 AT,wind_onshore,52477.1679083899,Brown & Schlachtberger
 BA,wind_onshore,50921.7184467028,Brown & Schlachtberger
