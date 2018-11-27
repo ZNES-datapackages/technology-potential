@@ -86,6 +86,10 @@
             "title": "DLR",
             "path": "https://elib.dlr.de/77976/1/REMix_Thesis_YS.pdf"
         },
+	{
+	    "title": "Brown & Schlachtberger",
+	    "path": "https://doi.org/10.5281/zenodo.1146665"
+	},
         {
             "title": "ZNES",
             "path": "ZNES_2050_ehighway"
