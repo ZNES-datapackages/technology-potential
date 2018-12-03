@@ -99,9 +99,13 @@
             "title": "ZNES",
             "path": "ZNES_2050_ehighway"
         },
-		{
-			"title": "LIMES-EU",
-			"path": "https://www.pik-potsdam.de/research/sustainable-solutions/models/limes/DocumentationLIMESEU_2014.pdf"
-		}
+	{
+	    "title": "LIMES-EU",
+	    "path": "https://www.pik-potsdam.de/research/sustainable-solutions/models/limes/DocumentationLIMESEU_2014.pdf"
+	},
+        {
+            "title": "zfes",
+            "http://www.zfes.uni-stuttgart.de/deutsch/downloads/20120727_Final_Stromspeicherpotenziale_fuer_Deutschland-.pdf"
+        }
     ]
 }
