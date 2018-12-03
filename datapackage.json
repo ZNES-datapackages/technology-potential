@@ -105,7 +105,7 @@
 	},
         {
             "title": "zfes",
-            "http://www.zfes.uni-stuttgart.de/deutsch/downloads/20120727_Final_Stromspeicherpotenziale_fuer_Deutschland-.pdf"
+            "path": "http://www.zfes.uni-stuttgart.de/deutsch/downloads/20120727_Final_Stromspeicherpotenziale_fuer_Deutschland-.pdf"
         }
     ]
 }
