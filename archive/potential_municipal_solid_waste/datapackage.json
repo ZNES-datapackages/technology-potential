@@ -1,0 +1,146 @@
+{
+  "name":"potential_municipal_solid_waste",
+  "title":"Energy Potential of municipal solid waste",
+  "description":"Data show the total energy potential of municipal solid waste from household and economic activities - NACE - in the EU28 at NUTS3 level. Data at national level have been spatialized on the number of people (for household waste) and on the GDP (for NACE waste).",
+  "version":"0.1",
+  "created":"2017-11-16",
+  "profile":"tabular-data-resource",
+  "keywords":[
+    "potential",
+    "waste"
+  ],
+  "licenses":[
+    {
+      "name":"other-pd",
+      "domain_content":false,
+      "domain_data":true,
+      "domain_software":false,
+      "family":"",
+      "id":"other-pd",
+      "is_generic":true,
+      "od_conformance":"approved",
+      "osd_conformance":"not reviewed",
+      "maintainer":"",
+      "status":"active",
+      "title":"Other (Public Domain)",
+      "url":"",
+      "path":""
+    }
+  ],
+  "sources":[
+    {
+      "name":"article",
+      "title":"Process and technological aspects of municipal solid waste gasification. A review",
+      "owner":"Science Direct",
+      "path":"http://www.sciencedirect.com/science/article/pii/S0956053X11004314"
+    },
+    {
+      "name":"eurostat",
+      "title":"Census",
+      "owner":"Eurostat",
+      "path":"http://ec.europa.eu/eurostat/data/database"
+    },
+    {
+      "name":"gdp",
+      "title":"GDP",
+      "owner":"Eurostat",
+      "path":"http://ec.europa.eu/eurostat/data/database"
+    }
+  ],
+  "contributors":[
+    {
+      "title":"Giulia Garegnani",
+      "email":"Giulia.Garegnani@eurac.edu",
+      "role":"author",
+      "organization":"Eurac Research"
+    },
+    {
+      "title":"Chiara Scaramuzzino",
+      "email":"Chiara.Scaramuzzino@eurac.edu",
+      "role":"author",
+      "organization":"Eurac Research"
+    }
+  ],
+  "resources":[
+    {
+      "path": "data/solid_waste.csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "spatial_resolution": "NUTS3",
+      "temporal_resolution": "year",
+      "spatial_key_field": "NUTS3_code",
+      "name": "solid_waste",
+      "title":"Energy Potential of municipal solid waste",
+      "description":"The data show the potential of municipal solid waste in the EU28 at NUTS3 level.",
+      "note":"Potential from nunicipal solid waste. We don't account for energy conversion",
+      "unit":"PetaJoule",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "owner",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "nuts_level",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "code_label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "measure_type_eustat_flag",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "potential_definition",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "id":"09c1ed05-c430-407e-a42f-b1348e9059c0"
+}

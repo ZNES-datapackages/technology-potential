@@ -2,6 +2,41 @@
     "profile": "tabular-data-package",
     "resources": [
         {
+            "path": "data/carrier.csv",
+            "profile": "tabular-data-resource",
+            "name": "carrier",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
             "path": "data/renewable.csv",
             "profile": "tabular-data-resource",
             "name": "renewable",
@@ -35,53 +70,17 @@
                     ""
                 ]
             }
-        },
-        {
-            "path": "data/storage.csv",
-            "profile": "tabular-data-resource",
-            "name": "storage",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_potential",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "source",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
         }
     ],
-    "name": "Renewable and Storage Potential",
-    "description": "Renewable Energy and Storage Potential per Country",
+    "name": "Potentials for energy system modelling per EU country",
     "contributors": [
         {
-            "title": "Simon Hilpert",
+            "title": "'Simon Hilpert'",
             "email": "simon.hilpert@uni-flensburg.de",
             "role": "author"
         },
         {
-            "title": "Martin Söthe",
+            "title": "Martin Soethe",
             "email": "martin.soethe@uni-flensburg.de",
             "role": "author"
         }
@@ -91,21 +90,21 @@
             "title": "DLR",
             "path": "https://elib.dlr.de/77976/1/REMix_Thesis_YS.pdf"
         },
-	{
-	    "title": "Brown & Schlachtberger",
-	    "path": "https://doi.org/10.5281/zenodo.1146665"
-	},
         {
-            "title": "ZNES",
-            "path": "ZNES_2050_ehighway"
+            "title": "Brown & Schlachtberger",
+            "path": "https://doi.org/10.5281/zenodo.1146665"
         },
-	{
-	    "title": "LIMES-EU",
-	    "path": "https://www.pik-potsdam.de/research/sustainable-solutions/models/limes/DocumentationLIMESEU_2014.pdf"
-	},
+        {
+            "title": "LIMES-EU",
+            "path": "https://www.pik-potsdam.de/research/sustainable-solutions/models/limes/DocumentationLIMESEU_2014.pdf"
+        },
         {
             "title": "zfes",
             "path": "http://www.zfes.uni-stuttgart.de/deutsch/downloads/20120727_Final_Stromspeicherpotenziale_fuer_Deutschland-.pdf"
+        },
+        {
+            "title": "hotmaps",
+            "path": "https://gitlab.com/hotmaps/potential"
         }
     ]
 }

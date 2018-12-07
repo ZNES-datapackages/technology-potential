@@ -1,0 +1,186 @@
+{
+  "name": "potential_biomass", 
+  "title": "Energy potential of agricultural residues, forest residues and livestock effluents", 
+  "description": "Data show the total energy potential of agricultural residues, primary forest residues and effluents from cattle, pig and poultry in the EU28.", 
+  "version": "0.1", 
+  "created": "2017-11-16", 
+  "profile": "tabular-data-resource",
+  "keywords": 
+  [
+    "potential", 
+    "biomass"
+    ], 
+  "licenses": 
+  [
+    {
+      "name": "CC-BY-4.0", 
+      "title": "Creative Commons Attribution 4.0", 
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+    ], 
+  "sources": 
+  [
+    {
+      "name": "biomasspolicies.eu",
+      "title": "Outlook of spatial biomass value chains in EU28", 
+      "owner": "Intelligent Energy Europe", 
+      "path": "http://www.biomasspolicies.eu/wp-content/uploads/2014/12/Outlook-of-spatial-biomass-value-chains-in-EU28.pdf"
+    },
+    {
+      "name": "Lucas",
+      "title": "Lucas - Land Use and Cover Area frame Survey", 
+      "owner": "Eurostat", 
+      "path": "http://ec.europa.eu/eurostat/web/lucas/data/primary-data/2015"
+    },
+    {
+      "name": "corine-land-cover",
+      "title": "CLC - Corine Land Cover", 
+      "owner": "European Environment Agency", 
+      "path": "http://land.copernicus.eu/pan-european/corine-land-cover/clc-2012"},
+    {
+      "name": "eurostat",
+      "title": "Holdings with manure storage facilities", 
+      "owner": "Eurostat", 
+      "path": "http://ec.europa.eu/eurostat/data/database"
+    }
+      ], 
+      "contributors": 
+      [
+        {
+          "title": "Giulia Garegnani", 
+          "email": "Giulia.Garegnani@eurac.edu", 
+          "role": "author", 
+          "organization": "Eurac Research"
+        }, 
+        {
+          "title": "Chiara Scaramuzzino", 
+          "email": "Chiara.Scaramuzzino@eurac.edu", 
+          "role": "author", 
+          "organization": "Eurac Research"
+        }
+        ], 
+      "resources":
+      [
+       {
+        "encoding": "utf-8",
+        "spatial_resolution": "NUTS3",
+        "temporal_resolution": "year",
+        "spatial_key_field": "code",
+        "format": "csv",
+        "mediatype": "text/csv",
+        "name": "agricultural_residues",
+        "title": "Agricultural biomass potential",
+        "path": "data/agricultural_residues.csv",
+        "description": "The data show the potential of agricultural residues in the EU28 at NUTS3 level.", 
+        "profile": "tabular-data-resource",
+        "schema": {"fields": [
+          {"name": "code",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "source",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "value",
+            "type": "number",
+            "unit": "PetaJoule"
+          },
+          {"name": "note",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "unit",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "sector",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "owner",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "nuts_level",
+            "type": "integer",
+            "unit": ""
+          },
+          {"name": "code_label",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "measure_type_eustat_flag",
+            "type": "string",
+            "unit": ""
+          },
+          {"name": "potential_definition",
+            "type": "string",
+            "unit": ""
+          }],
+"missingValues": [""]}
+        },
+        {
+        "encoding": "utf-8", 
+        "spatial_resolution": "NUTS3",
+        "temporal_resolution": "year",
+        "spatial_key_field": "code",
+        "format": "csv",
+        "mediatype": "text/csv",
+        "name": "livestock_effluents",
+        "title": "Livestock effluents potential", 
+        "path": "data/livestock_effluents.csv",
+        "description": "The data show the potential of livestock effluents in the EU28 at NUTS3 level.", 
+        "profile": "tabular-data-resource",
+        "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true
+          },
+          "schema": {"fields": [{"format": "default",
+                                  "name": "code",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "source",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "value",
+                                  "type": "number",
+                                  "unit": "PetaJoule"},
+                                {"format": "default",
+                                  "name": "note",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "unit",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "sector",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "owner",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "nuts_level",
+                                  "type": "integer",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "code_label",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "measure_type_eustat_flag",
+                                  "type": "string",
+            "unit": ""},
+                                {"format": "default",
+                                  "name": "potential_definition",
+                                  "type": "string",
+            "unit": ""}],
+                      "missingValues": [""]}}
+      ], 
+      "id": "7ec8ba1c-fc94-4165-9354-57f142967eae"
+}

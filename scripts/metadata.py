@@ -14,24 +14,40 @@ print(descriptor)
 p = Package(descriptor)
 
 # add key 'name' to desrciptor with value 'tech...'
-p.descriptor['name'] = 'Renewable and Storage Potential'
-
-p.descriptor['description'] = "Renewable Energy and Storage Potential per Country"
+p.descriptor['name'] = 'Potentials for energy system modelling per EU country'
 
 p.descriptor["contributors"] = [{
-    "title": "'Simon Hilpert'",
-    "email": "simon.hilpert@uni-flensburg.de",
-    "role": "author"
+        "title": "'Simon Hilpert'",
+        "email": "simon.hilpert@uni-flensburg.de",
+        "role": "author"
+    },
+   {
+        "title": "Martin Soethe",
+        "email": "martin.soethe@uni-flensburg.de",
+        "role": "author"
     }
 ]
 
-p.descriptor["sources"] = [{
-    "title": "DLR",
-    "path": "https://elib.dlr.de/77976/1/REMix_Thesis_YS.pdf"
+p.descriptor["sources"] = [
+    {
+        "title": "DLR",
+        "path": "https://elib.dlr.de/77976/1/REMix_Thesis_YS.pdf"
     },
     {
-    "title": "ZNES",
-    "path": "ZNES_2050_ehighway"
+        "title": "Brown & Schlachtberger",
+        "path": "https://doi.org/10.5281/zenodo.1146665"
+    },
+    {
+        "title": "LIMES-EU",
+        "path": "https://www.pik-potsdam.de/research/sustainable-solutions/models/limes/DocumentationLIMESEU_2014.pdf"
+    },
+    {
+        "title": "zfes",
+        "path": "http://www.zfes.uni-stuttgart.de/deutsch/downloads/20120727_Final_Stromspeicherpotenziale_fuer_Deutschland-.pdf"
+    },
+    {
+        "title": "hotmaps",
+        "path": "https://gitlab.com/hotmaps/potential"
     }
 ]
 
